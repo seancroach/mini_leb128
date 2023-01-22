@@ -5,4 +5,11 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[features]
+default = ["std"]
+
+std = []
+
 [dependencies]
+arrayvec = { version = "0.7", default-features = false }
+zc_io = { version = "0.1", default-features = false }
