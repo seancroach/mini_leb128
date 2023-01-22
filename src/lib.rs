@@ -1,4 +1,4 @@
-//! Read and write integers encoded using [LEB128].
+//! A minimal library to read and write integers encoded using [LEB128].
 //!
 //! Unlike other LEB128 libraries there are three notable changes:
 //!
