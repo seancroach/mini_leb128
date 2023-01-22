@@ -59,6 +59,7 @@
 //! [`write_all`]: Write::write_all
 
 #![no_std]
+#![doc(html_root_url = "https://docs.rs/mini_leb128/0.1.0")]
 #![deny(missing_docs, clippy::pedantic)]
 
 use core::{mem, num::NonZeroUsize};
