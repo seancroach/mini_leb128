@@ -1,14 +1,15 @@
 [package]
 name = "mini_leb128"
-version = "0.1.0"
+version = "0.1.0" # update html_root_url in src/lib.rs and version in README.md
+
+authors = ["Sean C. Roach <me@seancroach.dev>"]
+categories = ["encoding", "no-std"]
+description = "A minimal library to read and write integers encoded using LEB128."
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[features]
-default = ["std"]
-
-std = []
+keywords = ["io", "leb128", "vlq", "zero-copy"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/seancroach/mini_leb128"
 
 [dependencies]
 arrayvec = { version = "0.7", default-features = false }
