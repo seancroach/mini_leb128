@@ -1,6 +1,6 @@
 [package]
 name = "mini_leb128"
-version = "0.1.0" # update html_root_url in src/lib.rs and version in README.md
+version = "0.1.1" # update html_root_url in src/lib.rs and version in README.md
 
 authors = ["Sean C. Roach <me@seancroach.dev>"]
 categories = ["encoding", "no-std"]
@@ -13,4 +13,4 @@ repository = "https://github.com/seancroach/mini_leb128"
 
 [dependencies]
 arrayvec = { version = "0.7", default-features = false }
-zc_io = { version = "0.1", default-features = false }
+zc_io = { version = "0.2", default-features = false }
